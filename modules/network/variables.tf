@@ -35,6 +35,7 @@ variable "nsg_name" {
 
 variable "nic_name" {
   description = "The name of the network interface"
-  type        = string
+  type        = list(string)
 }
+
 
